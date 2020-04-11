@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jhonnyLeandro/UI-Test-Automation-Framework/issues"
   },
-  "homepage": "https://github.com/jhonnyLeandro/UI-Test-Automation-Framework#readme"
+  "homepage": "https://github.com/jhonnyLeandro/UI-Test-Automation-Framework#readme",
+  "devDependencies": {
+    "@wdio/cli": "^6.0.15"
+  }
 }
