@@ -1,0 +1,22 @@
+{
+  "name": "ui-test-automation-framework",
+  "version": "1.0.0",
+  "description": "UI Test Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonnyLeandro/UI-Test-Automation-Framework.git"
+  },
+  "keywords": [
+    "webdriverio"
+  ],
+  "author": "ejohhnny@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonnyLeandro/UI-Test-Automation-Framework/issues"
+  },
+  "homepage": "https://github.com/jhonnyLeandro/UI-Test-Automation-Framework#readme"
+}
