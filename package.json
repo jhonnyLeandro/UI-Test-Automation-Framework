@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/jhonnyLeandro/UI-Test-Automation-Framework#readme",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
     "@wdio/allure-reporter": "^6.0.14",
     "@wdio/cli": "^6.0.15",
     "@wdio/cucumber-framework": "^6.0.15",
@@ -27,6 +31,10 @@
     "@wdio/selenium-standalone-service": "^6.0.15",
     "@wdio/spec-reporter": "^6.0.14",
     "@wdio/sync": "^6.0.15",
+    "cucumber": "^6.0.5",
     "selenium-standalone": "^6.17.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
   }
 }
