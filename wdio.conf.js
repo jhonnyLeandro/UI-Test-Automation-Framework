@@ -202,6 +202,7 @@ exports.config = {
     before: function (capabilities, specs) {
         const chai = require('chai');
         global.expect = chai.expect;
+        browser.maximizeWindow();
     },
     /**
      * Runs before a WebdriverIO command gets executed.
