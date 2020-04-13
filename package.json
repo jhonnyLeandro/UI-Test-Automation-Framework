@@ -4,7 +4,9 @@
   "description": "UI Test Automation Framework",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio wdio.conf.js"
+    "test": "npx wdio wdio.conf.js",
+    "test_android": "npx wdio wdio.android.conf.js",
+    "test_ios": "npx wdio wdio.ios.conf.js"
   },
   "repository": {
     "type": "git",
@@ -25,12 +27,14 @@
     "@babel/preset-env": "^7.9.5",
     "@babel/register": "^7.9.0",
     "@wdio/allure-reporter": "^6.0.14",
+    "@wdio/appium-service": "^6.0.15",
     "@wdio/cli": "^6.0.15",
     "@wdio/cucumber-framework": "^6.0.15",
     "@wdio/local-runner": "^6.0.15",
     "@wdio/selenium-standalone-service": "^6.0.15",
     "@wdio/spec-reporter": "^6.0.14",
     "@wdio/sync": "^6.0.15",
+    "appium": "^1.15.1",
     "cucumber": "^6.0.5",
     "selenium-standalone": "^6.17.0"
   },
