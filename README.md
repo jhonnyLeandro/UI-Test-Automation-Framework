@@ -2,7 +2,7 @@
  
  ## Test Automation Project for Web and Mobile using WebdriverIO
  
- The objective of this project is to have a base project to automate test in web and mobile apps using webdriverIO,Cucumber,Selenium    Standalone and appium.
+ The objective of this project is to have a base structure and dependencies to automate ui test in web and mobile apps using webdriverIO,  Cucumber, Selenium Standalone and Appium.
  
  ## Initial Configuration
  
