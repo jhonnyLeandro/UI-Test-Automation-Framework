@@ -1,4 +1,4 @@
-# UI-Test-Automation-Framework
+# User Interface Automation Framework
 
 ## Tools version
 
