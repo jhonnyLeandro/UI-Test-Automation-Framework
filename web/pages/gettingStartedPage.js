@@ -1,11 +1,19 @@
 class GettingStarted {
     get titlePage() {return $('#__docusaurus')}
+
+    get apiButton() {return $('//a[text()="API"]')}
     
     isTitleVisible () {
-        this.titlePage.waitUntil (function () {
+        return this.titlePage.waitUntil (function () {
             return this.isDisplayed ();
         });
-        return this.titlePage.isDisplayed ();
+    }
+
+    touchApiButton(){
+        this.apiButton.waitUntil(function(){
+            return this.isDisplayed();
+        });
+        this.apiButton.click();
     }
 }
 
