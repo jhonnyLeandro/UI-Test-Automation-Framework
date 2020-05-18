@@ -11,3 +11,22 @@ The first step in order to have this project working as expected is to install n
  - node version >= 12.16.1
  - npm version  >= 6.13.4
  - java version >= 1.8
+
+
+## Platform Set Up
+
+To run the test in both mobile platforms (Android and iOS), you should install the native libraries (Android SDK, xcode-command-tools) and configure the env variable path.
+
+## run test
+
+**Android Test**
+
+`npm run test_android`
+
+**iOS Test**
+
+`npm run test_ios`
+
+**Web Test**
+
+`npm run test` 
