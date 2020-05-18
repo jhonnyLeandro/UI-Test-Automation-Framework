@@ -15,7 +15,7 @@ The first step in order to have this project working as expected is to install n
 
 ## Platform Set Up
 
-To run the test in both mobile platforms (Android and iOS), you should install the native libraries (Android SDK, xcode-command-tools) and configure the env variable path.
+To run the tests in both mobile platforms (Android and iOS), you should install the native libraries (Android SDK, xcode-command-tools) and configure the env variable path so that they can be accessed.
 
 ## run test
 
