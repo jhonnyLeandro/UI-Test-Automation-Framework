@@ -11,6 +11,12 @@ The first step in order to have this project working as expected is to install n
  - node version >= 12.16.1
  - npm version  >= 6.13.4
  - java version >= 1.8
+ 
+ **Install Dependencies**
+ 
+ After you clone the repository, you have to install the dependencies. just run the following command in the root of the project.
+ 
+ `npm install`
 
 
 ## Platform Set Up
